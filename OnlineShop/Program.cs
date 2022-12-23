@@ -9,7 +9,7 @@ namespace OnlineShop
         {
             CreateHostBuilder(args).Build().Run();
         }
-
+//pgm
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
