@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace OnlineShop.Model
+﻿namespace OnlineShop.Model
 {
     public class Pie
     {
@@ -19,8 +13,8 @@ namespace OnlineShop.Model
         public bool IsPieOfTheWeek { get; set; }
         public bool InStock { get; set; }
   
-        //categoryid - forgign key
-        //categoryid connected to category table
+    
+
         public int CategoryId { get; set; }
         public Category Category { get; set; }
         public string Notes { get; set; }

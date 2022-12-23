@@ -107,15 +107,8 @@ namespace OnlineShop
                 //    await context.Response.WriteAsync("Hello World!");
                 //});
             });
-            //app.UseEndpoints(endpoints =>
-            ////{
-            ////    // calling to home controller/index method
-            ////    endpoints.MapControllerRoute(
-            ////        name: "default",
-            ////        pattern: "{controller=Pie}/{action=List}/{id?}");
-
-
-            ////});
+           
+           
         }
     }
 }
