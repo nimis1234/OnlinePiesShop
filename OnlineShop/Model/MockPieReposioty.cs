@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace OnlineShop.Model
 {
@@ -9,7 +7,7 @@ namespace OnlineShop.Model
     {
         private readonly ICategoryRepository _categoryRepository = new MockCategoryRepository();
 
-        //mocking database content
+       
         public IEnumerable<Pie> AllPies =>
             new List<Pie>
             {
