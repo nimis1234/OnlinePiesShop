@@ -2,8 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
 namespace OnlineShop.Model
 {
     public class Order
@@ -70,6 +68,7 @@ namespace OnlineShop.Model
         [BindNever]
         [ScaffoldColumn(false)]
         public DateTime OrderPlaced { get; set; }
+     //
     }
 
 }
