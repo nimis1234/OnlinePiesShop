@@ -10,7 +10,7 @@ namespace OnlineShop.Model
 {
     public class ShoppingCart
     {
-        //this is the shoppingcart repository
+        
         private readonly AppDbContext _appDbContext;
         private string ShoppingCartId { get; set; }
         public List<ShoppingCartItem> ShoppingCartItems { get; set; }
